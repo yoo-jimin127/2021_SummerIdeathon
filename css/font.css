@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "NotoSansCJKkr-Bold";
+  src: url(../font/NotoSansCJKkr-Bold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "NotoSansCJKkr-Regular";
+  src: url(../font/NotoSansCJKkr-Regular.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "NotoSansCJKkr-Light";
+  src: url(../font/NotoSansCJKkr-Light.otf) format("opentype");
+}

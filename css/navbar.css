@@ -1,0 +1,91 @@
+@import url("font.css");
+
+nav {
+  background-color: #1e233e;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: 999;
+}
+
+nav .mainNav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+
+nav .subNav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.notHovered {
+  height: 0px;
+  opacity: 0;
+}
+
+.hovered {
+  height: 60px;
+  opacity: 100;
+}
+
+.navContents {
+  width: 1164px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.logoWrapper {
+  display: flex;
+  align-items: center;
+}
+.logoWrapper .logoImg {
+  width: 45px;
+}
+
+.logoWrapper .logoTitle {
+  margin-left: 8px;
+  width: 116px;
+}
+
+.mainNavMenu {
+  display: flex;
+  margin-left: 32px;
+  font-size: 24px;
+  color: #dce8ff;
+  cursor: default;
+}
+
+.mainNavMenu > li + li {
+  margin-left: 21px;
+}
+
+.loginMenu {
+  position: absolute;
+  right: 0;
+  display: flex;
+  margin-left: 32px;
+  font-size: 24px;
+  color: #dce8ff;
+  cursor: default;
+}
+
+.loginMenu > li + li {
+  margin-left: 30px;
+}
+
+.subNav ul {
+  display: flex;
+  color: #dce8ff;
+  font-size: 20px;
+  cursor: default;
+}
+
+.subNav ul > li + li {
+  margin-left: 30px;
+}
