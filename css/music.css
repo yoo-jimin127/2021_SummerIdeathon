@@ -10,7 +10,7 @@ main .mainpage_community{
   }
 
 .maincommu_box {
-  background-color: #5678BE;
+    background-color: rgba(86, 120, 190, 0.5);
   margin-top: 20px;
   width: 1000px;
   height: 720px;
