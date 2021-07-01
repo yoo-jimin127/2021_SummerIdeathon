@@ -73,14 +73,20 @@
             <p style="color :#EBEAEA; font-size: 20px; font-weight: lighter;">영상 게시자</p>
           </div>
           <div class ="video_content">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/ejaiIhfPAkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/ejaiIhfPAkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
 
         <div class="input_comment">
-          <a style="color: ;" href="video_after.html">댓글달기</a>
-
-        </div>
+         <form action="video_after.html">
+            <div class ="comment">
+                <input type="text" name="" id="" placeholder="댓글를 입력하세요">
+            </div>
+            <div class="commentBtn">
+            <input type="submit" value="댓글달기"  onClick="location.href='video_after.html'">
+            </div>
+          </form>
+      
 
         <div class = "video_comment">
           <div class = "comment_Box1">
@@ -111,7 +117,7 @@
               <p>내용</p>
             </div>
             
-          </div>
+          </div>  
         </div>
        
       </div>
