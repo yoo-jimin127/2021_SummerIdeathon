@@ -1,0 +1,41 @@
+.title {
+  display: flex;
+  align-items: flex-end;
+  padding-top: 183px;
+  color: #ffdfe3;
+  font-weight: bold;
+  font-size: 34px;
+}
+
+.title img {
+  position: relative;
+  top: -5px;
+  width: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.secondaryTitle {
+  font-size: 30px;
+  color: #92b8ff;
+}
+.communityOuterBox {
+  width: 100%;
+  background-color: rgba(86, 120, 190, 0.5);
+  border-radius: 20px;
+  padding: 25px 20px 30px;
+  margin-top: 18px;
+}
+
+.commentInputWrapper {
+  width: 100%;
+  background: #ffffff;
+  border-radius: 10px;
+}
+.commentOuterBox {
+  width: 100%;
+  background-color: rgba(86, 120, 190, 0.5);
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 18px;
+}
