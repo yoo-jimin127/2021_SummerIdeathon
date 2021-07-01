@@ -1,0 +1,90 @@
+@import url("font.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logoImg {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 550px;
+}
+
+.mainComment {
+    color: #FFDFE3;
+    font-size: 34px;
+    font-weight: bold;
+    width: 600px;
+    position: relative;
+    left: 400px;
+}
+
+.signupBox {
+    background-color: #5678BE;
+    margin-top: 250px;
+    width: 500px;
+    height: 300px;
+    border-radius: 15px;
+    position: relative;
+    right: 200px;
+  }
+
+.signup_name input{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 100px;
+    padding: 0px 20px;
+    outline: none;
+    border: none;
+}
+
+.signup_id input{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 100px;
+    padding: 0px 20px;
+    outline: none;
+    border: none;
+}
+
+.signup_pw input{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 100px;
+    padding: 0px 20px;
+    outline: none;
+    border: none;
+}
+
+.signup_email input{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 100px;
+    padding: 0px 20px;
+    outline: none;
+    border: none;
+}
+.signupBtn input{
+    background-color: #FF929E;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    margin-left: 200px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+}

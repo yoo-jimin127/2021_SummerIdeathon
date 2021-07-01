@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel=" shortcut icon" href="img/fromFarewell.ico" />
+    <link rel="icon" href="img/fromFarewell.ico" />
+    <title>이별에서</title>
+    <!--reset CSS (모든 스타일 초기화)-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+    />
+    <!--아래 두 CSS는 어떤 페이지에서든지 공통으로 적용하기!-->
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/login.css" />
+    <!--navbar는 네비게이션 바 쓰이는데에서만 써주자-->
+    <!--
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/mainpage.css" />
+    -->
+  </head>
+
+  <body>
+    <div class="basicContent">
+        <a href="login.html">
+                <img src="img/fromFarewell.png" class="logoImg"/>
+        </a>
+        <div class="mainComment">오늘은 어떤 이야기를 들려드릴까요?</div>
+      </div>
+
+    <!--main 안에 코드 집어넣기-->
+    <main>
+      <div class="loginBox">
+          <div class="login">
+              <div class="login_id">
+                  <input type="id" name="" id="" placeholder="ID를 입력하세요">
+              </div>
+              <div class="login_pw">
+                <input type="password" name="" id="" placeholder="패스워드를 입력하세요">
+            </div>
+            <div class="loginBtn">
+                <input type="submit" value="로그인" onClick="location.href='main.html'">
+            </div>
+            <div class="notYetText">
+                아직 회원이 아니신가요?
+            </div>
+            <div class="gotoSignUp" onClick="location.href='signup.html'">
+                회원가입
+            </div>
+          </div>
+      </div>
+    </main>
+
+    <!--맨 아래 이거 꼭 넣어주기-->
+    <script src="js/navbar.js"></script>
+  </body>
+</html>

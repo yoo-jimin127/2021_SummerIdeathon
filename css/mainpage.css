@@ -1,0 +1,186 @@
+@import url("font.css");
+
+main .mainpage_community{
+    position: relative;
+    color: #FFDFE3;
+    font-size: 34px;
+    font-weight: bold;
+    margin-left: 0px;
+    margin-top: 150px;
+  }
+
+.maincommu_box {
+  background-color: #5678BE;
+  margin-top: 20px;
+  width: 1000px;
+  height: 650px;
+  border-radius: 15px;
+}
+
+.chosenMenu {
+  color: #DCE8FF;
+  font-size: 30px;
+  position: absolute;
+  right: 570px;
+  top: 70px;
+  display: flex;
+}
+
+.chosenMenu > li + li {
+  margin-left: 30px;
+}
+
+.chosenMenu .checkedCategory {
+  font-size: 34px;
+  color: #92B8FF;
+}
+
+.commuTotalBox {
+  background-color: #303550;
+  position: absolute;
+  width: 570px;
+  height: 550px;
+  top: 130px;
+  left: 30px;
+  border-radius: 15px;
+}
+
+.commuBox1 {
+  background-color: #ffffff;
+  color: #555555;
+  font-size: 18px;
+  width: 500px;
+  height: 90px;
+  border-radius: 15px;
+  padding: 10px 20px;
+
+  position: absolute;
+  top: 150px;
+  left: 45px;
+}
+
+.commuBox2 {
+  background-color: #ffffff;
+  color: #555555;
+  font-size: 18px;
+  width: 500px;
+  height: 90px;
+  border-radius: 15px;
+  padding: 10px 20px;
+
+  position: absolute;
+  top: 275px;
+  left: 45px;
+}
+
+.commuBox3 {
+  background-color: #ffffff;
+  color: #555555;
+  font-size: 18px;
+  width: 500px;
+  height: 90px;
+  border-radius: 15px;
+  padding: 10px 20px;
+
+  position: absolute;
+  top: 400px;
+  left: 45px;
+}
+
+.commuBox4 {
+  background-color: #ffffff;
+  color: #555555;
+  font-size: 18px;
+  width: 500px;
+  height: 90px;
+  border-radius: 15px;
+  padding: 10px 20px;
+
+  position: absolute;
+  top: 525px;
+  left: 45px;
+}
+
+.writer {
+  color: #707070;
+  font-weight: lighter;
+  font-size: 12px;
+  padding: 5px;
+}
+
+.date {
+  color: #707070;
+  font-weight: lighter;
+  font-size: 12px;
+  padding: 450px;
+}
+
+.content {
+  color: #707070;
+  font-weight: lighter;
+  font-size: 15px;
+}
+.detailView {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: lighter;
+  position: absolute;
+  top: 650px;
+  left: 520px;
+}
+
+.commuImg {
+  width: 350px;
+  height: 550px;
+  border-radius: 15px;
+
+  position: absolute;
+  top: 130px;
+  right: 10px;
+}
+
+main .recommendMent {
+    position: relative;
+    color: #FFDFE3;
+    font-size: 34px;
+    font-weight: bold;
+    top: 50px;
+  }
+
+.movieImg {
+  width: 475px;
+  height: 300px;
+  border-radius: 15px;
+
+  position: relative;
+  top: 100px;
+  left: 0px;
+}
+
+.musicImg {
+  width: 475px;
+  height: 300px;
+  border-radius: 15px;
+
+  position: relative;
+  top: 100px;
+  left: 50px;
+}
+
+.ment_movie {
+  color: #EBEAEA;
+  font-size: 30px;
+  font-weight: bold;
+  position: relative;
+  top: -170px;
+  left: 30px;
+}
+
+.ment_music {
+  color: #EBEAEA;
+  font-size: 30px;
+  font-weight: bold;
+  position: relative;
+  top: -200px;
+  left: 550px;
+}

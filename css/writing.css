@@ -1,0 +1,90 @@
+@import url("font.css");
+
+main .contentArea{
+    position: fixed;
+    color: #FFDFE3;
+    font-size: 34px;
+    font-weight: bold;
+    margin-left: 0px;
+    margin-top: 150px;
+  }
+
+.writingBox {
+  background-color: #5678BE;
+  margin-top: 20px;
+  width: 1000px;
+  height: 650px;
+  border-radius: 15px;
+}
+
+.message {
+    color: #EBEAEA;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.chosenMenu {
+  color: #DCE8FF;
+  font-size: 30px;
+  position: absolute;
+  right: 600px;
+  top: 70px;
+  padding: 60px 0px;
+  display: flex;
+}
+
+.chosenMenu > li + li {
+  margin-left: 30px;
+}
+
+.chosenMenu .checkedCategory {
+    font-size: 34px;
+    color: #92B8FF;
+  }
+
+.titleInput input {
+    width: 750px;
+    height: 40px;
+    font-size: 24px;
+    border-radius: 10px;
+    margin-top: 80px;
+    margin-left: 20px;
+    padding: 0px 20px;
+    outline: none;
+    border: none;
+}
+
+.uploadBtn input {
+    background-color: #FF929E;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+
+    position: absolute;
+    top: 175px;
+    right: 20px;
+}
+
+.textInput input {
+    width: 920px;
+    height: 400px;
+    font-size: 24px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 0px 20px;
+    outline: none;
+    border: none;
+}
+
+.checkboxSet {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: lighter;
+    padding: 20px;
+}

@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/common.css" />
     <!--navbar는 네비게이션 바 쓰이는데에서만 써주자-->
     <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/writing.css" />
   </head>
 
   <body>
@@ -60,7 +61,34 @@
 
     <!--main 안에 코드 집어넣기-->
     <main>
-      
+      <div class="contentArea">
+        <h3>글쓰기</h3>
+        <div class="writingBox">
+            <div class="message">" 너는 어느 별에 있니? "</div>
+            <div class= "categoryMenu">
+                <ul class="chosenMenu">
+                    <li onClick="location.href='writing.html'">후회의별</li>
+                    <li class="checkedCategory"><u>미련의별</u></li>
+                    <li onClick="location.href='writing_3.html'">슬픔의별</li>
+                </ul>
+            </div>
+
+            <div class="titleInput">
+                <input type="name" name="" id="" placeholder="제목">
+            </div>
+            <div class="uploadBtn">
+                <input type="submit" name="" id="" value="글쓰기">
+                <!--커뮤니티 페이지 완성되면 링크 연결-->
+            </div>
+            <div class="textInput">
+                <input type="name" name="" id="" placeholder="텍스트를 입력하세요 ...">
+            </div>
+            <form class="checkboxSet">
+                <label><input type="checkbox" name="comment" value="댓글달기 허용" unchecked>댓글달기 허용</label>
+                <label><input type="checkbox" name="sharing" value="외부공유 허용" unchecked>외부공유 허용</label>
+            </form>
+        </div>
+      </div>
     </main>
 
     <!--맨 아래 이거 꼭 넣어주기-->
