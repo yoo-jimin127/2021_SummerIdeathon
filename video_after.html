@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel=" shortcut icon" href="img/fromFarewell.ico" />
+    <link rel="icon" href="img/fromFarewell.ico" />
+    <title>이별에서</title>
+    <!--reset CSS (모든 스타일 초기화)-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+    />
+    <!--아래 두 CSS는 어떤 페이지에서든지 공통으로 적용하기!-->
+    <link rel="stylesheet" href="css/common.css" />
+    <!--navbar는 네비게이션 바 쓰이는데에서만 써주자-->
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/video.css" />
+  </head>
+
+  <body>
+    <nav>
+      <div class="mainNav">
+        <div class="navContents">
+          <div class="logoWrapper">
+            <a href="index.html"
+              ><img src="img/fromFarewell.png" class="logoImg"
+            /></a>
+            <a href="index.html">
+              <img src="img/fromFarewellTitle.png" class="logoTitle" />
+            </a>
+          </div>
+          <ul class="mainNavMenu">
+            <li class="communityInNavMenu">커뮤니티</li>
+            <li class="contentsInNavMenu">컨텐츠</li>
+          </ul>
+          <ul class="loginMenu">
+            <li>회원가입</li>
+            <li>로그인</li>
+          </ul>
+        </div>
+      </div>
+      <div class="communitySubNav subNav notHovered">
+        <div class="navContents">
+          <ul class="communitySubMenu">
+            <li>후회의별</li>
+            <li>미련의별</li>
+            <li>슬픔의별</li>
+          </ul>
+        </div>
+      </div>
+      <div class="contentsSubNav subNav notHovered">
+        <div class="navContents">
+          <ul class="contentsSubMenu">
+            <li>영상추천</li>
+            <li>음악추천</li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--main 안에 코드 집어넣기-->
+    <main>
+      <div class="videopage_community">
+        <h3>"이별에 홀로 서 있는 당신을 위한 추천" 
+          <div class="goto_video_main">
+            <a style="color:  #92B8FF;" href="video_main.html"> >   영상 추천 </a></p>
+          </div>
+        </h3>
+        <div class="video_content_box">
+          <div class = "video_content_box_text">
+            <p style="color :#EBEAEA;">영상 제목</p> <br>
+            <p style="color :#EBEAEA; font-size: 20px; font-weight: lighter;">영상 게시자</p>
+          </div>
+          <div class ="video_content">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ejaiIhfPAkQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+
+        <div class="input_comment">
+          <a style="color: ;" href="video_after.html">댓글달기</a>
+
+        </div>
+
+        <div class = "video_comment">
+          <div class = "comment_Box1">
+            <p>댓글 작성자</p>
+            <p style="position: absolute; top:13px;left:12%; font-size:12px;" >2021.07.02 12:06</p>
+            <div class = comment_content>
+              <p>내용</p>
+            </div>
+          </div>
+          <div class = "comment_Box2">
+            <p>댓글 작성자</p>
+            <p style="position: absolute; top:13px;left:12%; font-size:12px;" >2021.07.02 12:06</p>
+            <div class = comment_content>
+              <p>내용  </p>
+            </div>
+          </div>
+          <div class = "comment_Box3">
+            <p >댓글 작성자</p>
+            <p style="position: absolute; top:13px;left:12%; font-size:12px;" >2021.07.02 12:06</p>
+            <div class = comment_content>
+              <p>내용</p>
+            </div>
+          </div>
+          <div class = "comment_Box4">
+            <p>댓글 작성자</p>
+            <p style="position: absolute; top:13px;left:12%; font-size:12px;" >2021.07.02 12:06</p>
+            <div class = comment_content>
+              <p>내용</p>
+            </div>
+            
+          </div>
+        </div>
+       
+      </div>
+    </main>
+
+    <!--맨 아래 이거 꼭 넣어주기-->
+    <script src="js/navbar.js"></script>
+  </body>
+</html>

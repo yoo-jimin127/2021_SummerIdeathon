@@ -1,0 +1,257 @@
+@import url("font.css");
+
+main .videopage_community{
+    position: relative;
+    color: #FFDFE3;
+    font-size: 34px;
+    font-weight: bold;
+    margin-left: 0px;
+    margin-top: 150px;
+  }
+
+ .goto_video_main{
+    position: absolute;
+    left: 550px;
+    top: 0px;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 43px;
+  
+
+}
+.video_content_box {
+  background-color: rgba(86, 120, 190, 0.5);
+  margin-top: 20px;
+
+  width: 980px;
+  height: 609px;
+  border-radius: 15px;
+}
+
+.video_content_box_text{
+    font-size: 24px;
+    position: relative;
+    left: 3%;
+    top: 5%;
+    line-height: 15px;
+}
+
+.video_content{
+    position: relative;
+    width: 940px;
+    height: 473px;
+    left: 2.3%;
+    top: 10%;
+    border-radius: 15px;
+  
+
+    
+}
+.input_comment{
+    position: absolute;
+    left: 0px;
+    top: 709px;
+     
+    width: 980px;
+    height: 69px;
+    background-color: #FFFFFF;
+    border-radius: 15px;    
+}
+.video_comment{
+    position: absolute;
+    left: 0px;
+    top: 809px;
+    
+    background-color: rgba(86, 120, 190, 0.5);
+    margin-top: 20px;
+  
+    width: 980px;
+    height: 548px;
+    border-radius: 15px;    
+}
+
+.comment_Box1 {
+    background-color: #ffffff;
+    color: #555555;
+    font-size: 18px;
+    width: 92%;
+    height: 16%;
+    border-radius: 15px;
+    padding: 10px 20px;
+  
+    position: absolute;
+    top: 4%;
+    left: 2.1%;
+  }
+  
+  .comment_Box2 {
+    background-color: #ffffff;
+    color: #555555;
+    font-size: 18px;
+    width: 92%;
+    height: 16%;
+    border-radius: 15px;
+    padding: 10px 20px;
+  
+    position: relative;
+    top: 28%;
+    left: 2.1%;
+  }
+  
+  .comment_Box3 {
+    background-color: #ffffff;
+    color: #555555;
+    font-size: 18px;
+    width: 92%;
+    height: 16%;
+    border-radius: 15px;
+    padding: 10px 20px;
+  
+    position: absolute;
+    top: 52%;
+    left: 2.1%;
+  }
+  
+  .comment_Box4 {
+    background-color: #ffffff;
+    color: #555555;
+    font-size: 18px;
+    width: 92%;
+    height: 16%;
+    border-radius: 15px;
+    padding: 10px 20px;
+  
+    position: absolute;
+    top: 76%;
+    left: 2.1%;
+  }
+  
+
+  .comment_content{
+    
+    position : relative;
+    top: 10px;
+    width: 100%;
+    height: 60%;
+    background-color: bisque;
+    word-break:break-all;
+      
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.chosenMenu > li + li {
+  margin-left: 30px;
+}
+
+.chosenMenu .checkedCategory {
+  font-size: 34px;
+  color: #92B8FF;
+}
+
+.commuTotalBox {
+  background-color: #303550;
+  position: absolute;
+  width: 570px;
+  height: 550px;
+  top: 130px;
+  left: 30px;
+  border-radius: 15px;
+}
+
+.writer {
+  color: #707070;
+  font-weight: lighter;
+  font-size: 12px;
+  padding: 5px;
+}
+
+.date {
+  color: #707070;
+  font-weight: lighter;
+  font-size: 12px;
+  padding: 450px;
+}
+
+.content {
+  color: #707070;
+  font-weight: lighter;
+  font-size: 15px;
+}
+.detailView {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: lighter;
+  position: absolute;
+  top: 650px;
+  left: 520px;
+}
+
+.commuImg {
+  width: 350px;
+  height: 550px;
+  border-radius: 15px;
+
+  position: absolute;
+  top: 130px;
+  right: 10px;
+}
+
+main .recommendMent {
+    position: relative;
+    color: #FFDFE3;
+    font-size: 34px;
+    font-weight: bold;
+    top: 50px;
+  }
+
+.movieImg {
+  width: 475px;
+  height: 300px;
+  border-radius: 15px;
+
+  position: relative;
+  top: 100px;
+  left: 0px;
+}
+
+.musicImg {
+  width: 475px;
+  height: 300px;
+  border-radius: 15px;
+
+  position: relative;
+  top: 100px;
+  left: 50px;
+}
+
+.ment_movie {
+  color: #EBEAEA;
+  font-size: 30px;
+  font-weight: bold;
+  position: relative;
+  top: -170px;
+  left: 30px;
+}
+
+.ment_music {
+  color: #EBEAEA;
+  font-size: 30px;
+  font-weight: bold;
+  position: relative;
+  top: -200px;
+  left: 550px;
+}
