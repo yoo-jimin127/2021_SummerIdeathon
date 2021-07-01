@@ -8,7 +8,12 @@ font-family : NotoSansCJKkr-Bold; (굵은 글씨 )
 font-family : NotoSansCJKkr-Regular; (보통 글씨 )
 font-family : NotoSansCJKkr-Light; (얇은 글씨 )
 */
+* {
+  box-sizing: border-box;
+}
+
 body {
+  box-sizing: border-box;
   background-color: #121212;
   min-height: 100vh;
   /*기본 글꼴은 NotoSansCJKkr-Regular (보통 글씨) */
