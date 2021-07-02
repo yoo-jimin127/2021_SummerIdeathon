@@ -36,8 +36,8 @@
             <li class="contentsInNavMenu">컨텐츠</li>
           </ul>
           <ul class="loginMenu">
-            <li>회원가입</li>
-            <li>로그인</li>
+            <li onClick="location.href='signup.html'">회원가입</li>
+            <li onClick="location.href='login.html'">로그인</li>
           </ul>
         </div>
       </div>
@@ -62,21 +62,82 @@
 
     <!--main 안에 코드 집어넣기-->
     <main>
-      <h1 class="title">"나는 이 별에 있어, 너는 어느 별에 있니?"
-          <img src="img/rightArrow.png">
-          <span class="secondaryTitle">후회의 별</span>
+      <h1 class="title">
+        "나는 이 별에 있어, 너는 어느 별에 있니?"
+        <img src="img/rightArrow.png" />
+        <span class="secondaryTitle">후회의 별</span>
       </h1>
-      <div class="communityOuterBox">          
+      <div class="communityOuterBox">
+        <div class="postMetaData">
+          <span class="postWriter">작성자</span>
+          <span class="postPubDate">2021.07.01</span>
+        </div>
+        <div class="postTitle">커뮤니티 글 제목</div>
+        <div class="postContent">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book.
         </div>
       </div>
 
       <div class="commentInputWrapper">
-          안녕하세요
+        <input type="text" />
+        <a class="writeCommentBtn"> 댓글달기 <img src="img/pen.png" /> </a>
       </div>
-      
-      <div class="commentOuterBox">
 
-      </>
+      <div class="commentOuterBox">
+        <div class="commentCard">
+          <div class="commentMetaData">
+            <span class="commenter">작성자</span>
+            <span class="commentPubDate">2021.07.01</span>
+          </div>
+          <div class="commentContent">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </div>
+        </div>
+        <div class="commentCard">
+          <div class="commentMetaData">
+            <span class="commenter">작성자</span>
+            <span class="commentPubDate">2021.07.01</span>
+          </div>
+          <div class="commentContent">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </div>
+        </div>
+        <div class="commentCard">
+          <div class="commentMetaData">
+            <span class="commenter">작성자</span>
+            <span class="commentPubDate">2021.07.01</span>
+          </div>
+          <div class="commentContent">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </div>
+        </div>
+        <div class="commentCard">
+          <div class="commentMetaData">
+            <span class="commenter">작성자</span>
+            <span class="commentPubDate">2021.07.01</span>
+          </div>
+          <div class="commentContent">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </div>
+        </div>
+        <div class="commentCard">
+          <div class="commentMetaData">
+            <span class="commenter">작성자</span>
+            <span class="commentPubDate">2021.07.01</span>
+          </div>
+          <div class="commentContent">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </div>
+        </div>
+      </div>
     </main>
 
     <!--맨 아래 이거 꼭 넣어주기-->

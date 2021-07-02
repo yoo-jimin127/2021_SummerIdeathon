@@ -10,7 +10,7 @@
     width: 200px;
     height: 200px;
     position: relative;
-    left: 550px;
+    left: 670px;
 }
 
 .mainComment {
@@ -19,24 +19,24 @@
     font-weight: bold;
     width: 600px;
     position: relative;
-    left: 400px;
+    left: 550px;
 }
 
 .signupBox {
     background-color: rgba(86, 120, 190, 0.5);
     margin-top: 250px;
-    width: 500px;
-    height: 300px;
+    width: 1000px;
+    height: 450px;
     border-radius: 15px;
     position: relative;
-    right: 200px;
+    right: 300px;
   }
 
 .signup_name input{
-    width: 300px;
-    height: 40px;
+    width: 800px;
+    height: 60px;
     border-radius: 10px;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-left: 100px;
     padding: 0px 20px;
     outline: none;
@@ -44,8 +44,8 @@
 }
 
 .signup_id input{
-    width: 300px;
-    height: 40px;
+    width: 800px;
+    height: 60px;
     border-radius: 10px;
     margin-top: 15px;
     margin-left: 100px;
@@ -55,8 +55,8 @@
 }
 
 .signup_pw input{
-    width: 300px;
-    height: 40px;
+    width: 800px;
+    height: 60px;
     border-radius: 10px;
     margin-top: 15px;
     margin-left: 100px;
@@ -66,8 +66,8 @@
 }
 
 .signup_email input{
-    width: 300px;
-    height: 40px;
+    width: 800px;
+    height: 60px;
     border-radius: 10px;
     margin-top: 15px;
     margin-left: 100px;
@@ -81,9 +81,9 @@
     font-weight: bold;
     font-size: 20px;
     margin-top: 20px;
-    width: 100px;
-    height: 30px;
-    margin-left: 200px;
+    width: 150px;
+    height: 50px;
+    margin-left: 420px;
     border-radius: 30px;
     outline: none;
     border: none;
