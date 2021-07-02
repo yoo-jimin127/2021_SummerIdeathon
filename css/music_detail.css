@@ -17,6 +17,16 @@ main .mainpage_community{
   border-radius: 15px;
 }
 
+.comment_box {
+  position:relative;
+  bottom:1155px;
+  background-color: rgba(86, 120, 190, 0.5);
+  margin-top: 20px;
+  width: 1000px;
+  height: 520px;
+  border-radius: 15px;
+}
+
 .chosenMenu {
   color: #DCE8FF;
   font-size: 30px;
@@ -30,7 +40,7 @@ main .mainpage_community{
   margin-left: 30px;
 }
 
-.chosenMenu .checkedCategory {
+.chosenMenu {
   font-size: 34px;
   color: #92B8FF;
 }
@@ -66,8 +76,8 @@ main .mainpage_community{
 }
 
 .picture {
-    width:240px;
-    height:240px;
+    width:270px;
+    height:270px;
     border-radius:40px;
     padding:20px;
 }
@@ -117,3 +127,81 @@ main .mainpage_community{
     left:25px;
     border-radius:15px;
 }
+
+.input_comment{
+    position: relative;
+    bottom:1180px;
+    width: 1000px;
+    height: 69px;
+    background-color: #FFFFFF;
+    border-radius: 15px;    
+}
+.comment input{
+    position: absolute;
+    left: 0px;
+    width: 85%;
+    height: 65px;
+    outline: none;
+    border: none;
+    
+    border-radius: 15px;
+}
+.commentBtn input{
+    background-color: #FF929E;
+    background-image: url('/img/pen.png');
+    background-repeat: no-repeat;
+    background-position: 90%;
+    background-size: 30px;
+
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    padding: 10px 15px;
+    width: 15%;
+    height: 69px;
+    margin-left: 85%;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    position: absolute;
+    
+}
+
+
+.commentBox {
+    background-color: #ffffff;
+    color: #555555;
+    width: 950px;
+    height: 100px;
+    border-radius: 15px;
+    padding: 10px 20px;
+    left: 25px;
+  }
+
+  .id {
+    position:absolute;
+    font-size: 18px;
+    font-weight: bold;
+    padding:5px;
+  }
+
+  .date {
+      font-size:12px;
+      color: #707070;
+      font-weight: lighter;
+      position:absolute;
+      left : 100px;
+      top:20px;
+  }
+
+  .content {
+      font-size:15px;
+      color: #707070;
+      font-weight: lighter;
+      position:absolute;
+      top:15px;
+      padding:30px;
+      left:-5px;
+      line-height:20px;
+  }
