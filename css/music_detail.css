@@ -205,3 +205,21 @@ main .mainpage_community{
       left:-5px;
       line-height:20px;
   }
+
+  .writingBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff929e;
+    border-radius: 10px;
+    padding: 8px 16px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  .writingBtn img {
+    width: 25px;
+    margin-left: 10px;
+  }
