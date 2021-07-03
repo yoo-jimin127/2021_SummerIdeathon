@@ -15,7 +15,7 @@ font-family : NotoSansCJKkr-Light; (얇은 글씨 )
 body {
   box-sizing: border-box;
   /*background-color: #121212; */
-  background-image: url('/img/bg_img.JPG');
+  background-image: url('/img/back_img.JPG');
   background-size: 100% 100%;
   min-height: 100vh;
   /*기본 글꼴은 NotoSansCJKkr-Regular (보통 글씨) */
