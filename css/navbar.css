@@ -58,7 +58,10 @@ nav .subNav {
   margin-left: 32px;
   font-size: 24px;
   color: #dce8ff;
-  cursor: default;
+}
+
+.mainNavMenu li {
+  cursor: pointer;
 }
 
 .mainNavMenu > li + li {
@@ -73,7 +76,15 @@ nav .subNav {
   margin-left: 32px;
   font-size: 24px;
   color: #dce8ff;
-  cursor: default;
+}
+
+.loginMenu li {
+  cursor: pointer;
+}
+
+.loginMenu li a {
+  color: inherit;
+  text-decoration: none;
 }
 
 .loginMenu > li + li {
@@ -84,7 +95,15 @@ nav .subNav {
   display: flex;
   color: #dce8ff;
   font-size: 20px;
-  cursor: default;
+}
+
+.subNav ul li {
+  cursor: pointer;
+}
+
+.subNav ul li a {
+  color: inherit;
+  text-decoration: none;
 }
 
 .subNav ul > li + li {

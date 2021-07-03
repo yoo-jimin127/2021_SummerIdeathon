@@ -1,13 +1,13 @@
 @import url("font.css");
 
-main .contentArea{
-    position: relative;
-    color: #FFDFE3;
-    font-size: 34px;
-    font-weight: bold;
-    margin-left: 0px;
-    margin-top: 150px;
-  }
+main .contentArea {
+  position: relative;
+  color: #ffdfe3;
+  font-size: 34px;
+  font-weight: bold;
+  margin-left: 0px;
+  margin-top: 150px;
+}
 
 .writingBox {
   background-color: rgba(86, 120, 190, 0.5);
@@ -18,13 +18,13 @@ main .contentArea{
 }
 
 .message {
-    color: #EBEAEA;
-    font-size: 30px;
-    padding: 10px;
+  color: #ebeaea;
+  font-size: 30px;
+  padding: 10px;
 }
 
 .chosenMenu {
-  color: #DCE8FF;
+  color: #dce8ff;
   font-size: 30px;
   position: relative;
   padding: 20px 20px;
@@ -36,36 +36,37 @@ main .contentArea{
 }
 
 .chosenMenu .checkedCategory {
-    font-size: 34px;
-    color: #92B8FF;
-  }
+  font-size: 34px;
+  color: #92b8ff;
+}
 
 .titleInput input {
-    width: 780px;
-    height: 40px;
-    font-size: 24px;
-    border-radius: 10px;
-    margin-top: 0px;
-    margin-left: 25px;
-    padding: 0px 20px;
-    outline: none;
-    border: none;
+  width: 780px;
+  height: 40px;
+  font-size: 24px;
+  border-radius: 10px;
+  margin-top: 0px;
+  margin-left: 25px;
+  padding: 0px 20px;
+  outline: none;
+  border: none;
 }
 
 .uploadBtn input {
-    background-color: #FF929E;
-    color: #ffffff;
-    font-weight: bold;
-    font-size: 20px;
-    width: 150px;
-    height: 40px;
-    border-radius: 15px;
-    outline: none;
-    border: none;
+  background-color: #ff929e;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+  width: 150px;
+  height: 40px;
+  border-radius: 15px;
+  outline: none;
+  border: none;
+  cursor: pointer;
 
-    position: absolute;
-    top: 175px;
-    right: 5px;
+  position: absolute;
+  top: 175px;
+  right: 5px;
 }
 
 .penImg {
@@ -78,20 +79,20 @@ main .contentArea{
 }
 
 .textInput input {
-    width: 950px;
-    height: 400px;
-    font-size: 24px;
-    border-radius: 10px;
-    margin-top: 20px;
-    margin-left: 25px;
-    padding: 0px 20px;
-    outline: none;
-    border: none;
+  width: 950px;
+  height: 400px;
+  font-size: 24px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: 25px;
+  padding: 0px 20px;
+  outline: none;
+  border: none;
 }
 
 .checkboxSet {
-    color: #ffffff;
-    font-size: 20px;
-    font-weight: lighter;
-    padding: 20px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: lighter;
+  padding: 20px;
 }

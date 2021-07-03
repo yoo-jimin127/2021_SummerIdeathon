@@ -19,6 +19,11 @@
   font-size: 30px;
   color: #92b8ff;
 }
+
+.secondaryTitle a {
+  color: inherit;
+  text-decoration: none;
+}
 .communityOuterBox {
   width: 100%;
   background-color: rgba(86, 120, 190, 0.5);

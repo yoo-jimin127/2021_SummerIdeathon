@@ -64,30 +64,52 @@
       <div class="contentArea">
         <h3>글쓰기</h3>
         <div class="writingBox">
-            <div class="message">" 너는 어느 별에 있니? "</div>
-            <div class= "categoryMenu">
-                <ul class="chosenMenu">
-                    <li onClick="location.href='writing_1.html'">후회의별</li>
-                    <li onClick="location.href='writing_2.html'">미련의별</li>
-                    <li class="checkedCategory"><u>슬픔의별</u></li>
-                </ul>
-            </div>
+          <div class="message">" 너는 어느 별에 있니? "</div>
+          <div class="categoryMenu">
+            <ul class="chosenMenu">
+              <li onClick="location.href='writing_1.html'">후회의별</li>
+              <li onClick="location.href='writing_2.html'">미련의별</li>
+              <li class="checkedCategory"><u>슬픔의별</u></li>
+            </ul>
+          </div>
 
-            <div class="titleInput">
-                <input type="name" name="" id="" placeholder="제목">
-            </div>
-            <div class="uploadBtn" onClick="location.href='community_3.html'">
-              <input type="submit" name="" id="" value="글쓰기" >
-              <img class="penImg" src="img/pen.png" />
-                <!--커뮤니티 페이지 완성되면 링크 연결-->
-            </div>
-            <div class="textInput">
-                <input type="name" name="" id="" placeholder="텍스트를 입력하세요 ...">
-            </div>
-            <form class="checkboxSet">
-                <label><input type="checkbox" name="comment" value="댓글달기 허용" unchecked>댓글달기 허용</label>
-                <label><input type="checkbox" name="sharing" value="외부공유 허용" unchecked>외부공유 허용</label>
-            </form>
+          <div class="titleInput">
+            <input type="name" name="" id="" placeholder="제목" />
+          </div>
+          <div
+            class="uploadBtn"
+            onClick="location.href='community_3_afterPosting.html'"
+          >
+            <input type="submit" name="" id="" value="글쓰기" />
+            <img class="penImg" src="img/pen.png" />
+            <!--커뮤니티 페이지 완성되면 링크 연결-->
+          </div>
+          <div class="textInput">
+            <input
+              type="name"
+              name=""
+              id=""
+              placeholder="텍스트를 입력하세요 ..."
+            />
+          </div>
+          <form class="checkboxSet">
+            <label
+              ><input
+                type="checkbox"
+                name="comment"
+                value="댓글달기 허용"
+                unchecked
+              />댓글달기 허용</label
+            >
+            <label
+              ><input
+                type="checkbox"
+                name="sharing"
+                value="외부공유 허용"
+                unchecked
+              />외부공유 허용</label
+            >
+          </form>
         </div>
       </div>
     </main>

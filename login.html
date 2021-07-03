@@ -23,11 +23,11 @@
 
   <body>
     <div class="basicContent">
-        <a href="login.html">
-                <img src="img/fromFarewell.png" class="logoImg"/>
-        </a>
-        <div class="mainComment">오늘은 어떤 이야기를 들려드릴까요?</div>
-      </div>
+      <a href="login.html">
+        <img src="img/fromFarewell.png" class="logoImg" />
+      </a>
+      <div class="mainComment">오늘은 어떤 이야기를 들려드릴까요?</div>
+    </div>
 
     <!--main 안에 코드 집어넣기-->
     <main>
@@ -49,6 +49,26 @@
                 회원가입
             </div>
           </div>
+          <div class="login_pw">
+            <input
+              type="password"
+              name=""
+              id=""
+              placeholder="패스워드를 입력하세요"
+            />
+          </div>
+          <div class="loginBtn">
+            <input
+              type="submit"
+              value="로그인"
+              onClick="location.href='community_3_afterLogin.html'"
+            />
+          </div>
+          <div class="notYetText">아직 회원이 아니신가요?</div>
+          <div class="gotoSignUp" onClick="location.href='signup.html'">
+            회원가입
+          </div>
+        </div>
       </div>
     </main>
 
