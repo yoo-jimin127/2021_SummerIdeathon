@@ -35,8 +35,12 @@
             <li class="contentsInNavMenu">컨텐츠</li>
           </ul>
           <ul class="loginMenu">
-            <li onClick="location.href='signup.html'">회원가입</li>
-            <li onClick="location.href='login.html'">로그인</li>
+            <li>로그아웃</li>
+            <li>
+              <a class="writePostBtn" onClick="location.href='writing_3.html'">
+                글쓰기 <img src="img/pen.png" />
+              </a>
+            </li>
           </ul>
         </div>
       </div>
@@ -52,8 +56,8 @@
       <div class="contentsSubNav subNav notHovered">
         <div class="navContents">
           <ul class="contentsSubMenu">
-            <li onClick="location.href='video_main'">영상추천</li>
-            <li onClick="location.href='music.html'">음악추천</li>
+            <li><a href="video_main.html">영상추천</a></li>
+            <li>음악추천</li>
           </ul>
         </div>
       </div>
@@ -61,69 +65,108 @@
 
     <!--main 안에 코드 집어넣기-->
     <main>
-    <div class="mainpage_community">
-      <h3>"이 별에 홀로 서 있는 당신을 위한 추천"</h3>
-      <div class="maincommu_box">
-        <div class= "categoryMenu">
-          <ul class="chosenMenu">
-            <li>영상 추천</li>
-            <li class="checkedCategory"><u>음악 추천</u></li>
-          </ul>
+      <div class="mainpage_community">
+        <h3>"이 별에 홀로 서 있는 당신을 위한 추천"</h3>
+        <div class="maincommu_box">
+          <div class="categoryMenu">
+            <ul class="chosenMenu">
+              <li>영상 추천</li>
+              <li class="checkedCategory"><u>음악 추천</u></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="commuTotalBox"></div>
+        <a href="music_detail.html">
+          <div class="commuBox one">
+            <img src="img/이제는 어떻게 사랑을 하나요.jpg" class="picture" />
+            <a class="title"> 이제는 어떻게 사랑을 하나요</a>
+            <a class="singer">정효빈</a>
+            <p class="lyrics">
+              버티고 버티다 창문을 열어도 보고 <br />지난 사랑이 초라하게
+              느껴져도 <br />지우고 지워도 아무리 애를 써 봐도 <br />나는 여전히
+              그대를 기다리죠
+            </p>
+          </div>
+        </a>
+        <div class="commuBox one" style="top: 300px">
+          <img src="img/넌 내가 보고 싶지 않나 봐.jpg" class="picture" />
+          <a class="title">넌 내가 보고 싶지 않나 봐</a>
+          <a class="singer">신예영</a>
+          <p class="lyrics">
+            네가 보고 싶은 오늘 같은 날이면<br />
+            머릿속을 비우려고 애를 써봐도<br />
+            잘 지내고 있단 너의 얘길 들으면<br />
+            또 하루 종일 울고만 있어
+          </p>
+        </div>
+        <div class="commuBox one" style="top: 450px">
+          <img src="img/시든 꽃에 물을 주듯.jpg" class="picture" />
+          <a class="title">시든 꽃에 물을 주듯</a>
+          <a class="singer">HYNN(박혜원)</a>
+          <p class="lyrics">
+            아무말도 아무것도 여전히 넌 여기 없고<br />
+            널 원하고 널 원해도 난 외롭고<br />
+            꽃이 피고 진 그 자리 끝을 몰랐었던 맘이<br />
+            깨질 것만 같던 그때 우리
+          </p>
+        </div>
+        <div class="commuBox one" style="top: 600px">
+          <img src="img/안녕.jpg" class="picture" />
+          <a class="title">안녕</a>
+          <a class="singer">폴킴(Paul Kim)</a>
+          <p class="lyrics">
+            안녕이라는 말을 해 짧은 시간을 뒤로 한 채로<br />
+            여전히 아프겠지만<br />
+            하룻밤 자고 나면 사라지는 꿈처럼<br />
+            너를 Oh 잊게 될까 두려워져
+          </p>
+        </div>
+        <div class="commuBox two">
+          <img src="img/우리 헤어졌어요.jpg" class="picture" />
+          <a class="title">우리 헤어졌어요</a>
+          <a class="singer">윤하</a>
+          <p class="lyrics">
+            새하얀 머플러에 얼굴을 묻고<br />
+            붉어진 눈을 깜빡이며 널 기다렸어<br />
+            무슨 얘길 하고픈지<br />
+            그 맘 알 것도 같은데 모르겠어
+          </p>
+        </div>
+        <div class="commuBox two" style="top: 300px">
+          <img src="img/좋니.jpg" class="picture" />
+          <a class="title">좋니</a>
+          <a class="singer">윤종신</a>
+          <p class="lyrics">
+            이제 괜찮니 너무 힘들었잖아 우리 그 마무리가<br />
+            고작 이별뿐인 건데 우린 참 어려웠어<br />
+            잘 지낸다고 전해 들었어 가끔<br />
+            벌써 참 좋은 사람 만나 잘 지내고 있어
+          </p>
+        </div>
+        <div class="commuBox two" style="top: 450px">
+          <img src="img/포장마차.jpg" class="picture" />
+          <a class="title">포장마차</a>
+          <a class="singer">황인욱</a>
+          <p class="lyrics">
+            그대와 자주 가던 그 술집에<br />
+            혼자 널 생각하며 소주 한잔해<br />
+            그대가 좋아하던 김치찌개를<br />
+            가만히 바라보다 눈물 한잔해
+          </p>
+        </div>
+        <div class="commuBox two" style="top: 600px">
+          <img src="img/fine.jpg" class="picture" />
+          <a class="title">Fine</a>
+          <a class="singer">태연</a>
+          <p class="lyrics">
+            찢어진 종잇조각에 담아낸 나의 진심에<br />
+            선명해져 somethin'bout you Yeah<br />
+            나를 많이 닮은 듯 다른 넌 혹시 나와 같을까<br />
+            지금 괜한 기대를 해
+          </p>
         </div>
       </div>
-
-      <div class="commuTotalBox"></div>
-      <a href="music_detail.html">
-      <div class="commuBox one">
-        <img src="img/이제는 어떻게 사랑을 하나요.jpg" class="picture">
-        <a class="title"> 이제는 어떻게 사랑을 하나요</a>
-        <a class="singer">정효빈</a>
-        <p class="lyrics">버티고 버티다 창문을 열어도 보고 <br>지난 사랑이 초라하게 느껴져도 <br>지우고 지워도 아무리 애를 써 봐도 <br>나는 여전히 그대를 기다리죠</p>
-      </div>
-      </a>
-      <div class="commuBox one" style="top:300px">
-        <img src="img/넌 내가 보고 싶지 않나 봐.jpg" class="picture">
-        <a class="title">넌 내가 보고 싶지 않나 봐</a>
-        <a class="singer">신예영</a>
-        <p class="lyrics">네가 보고 싶은 오늘 같은 날이면<br> 머릿속을 비우려고 애를 써봐도<br> 잘 지내고 있단 너의 얘길 들으면<br> 또 하루 종일 울고만 있어</p>
-      </div>
-      <div class="commuBox one" style="top:450px">
-        <img src="img/시든 꽃에 물을 주듯.jpg" class="picture">
-        <a class="title">시든 꽃에 물을 주듯</a>
-        <a class="singer">HYNN(박혜원)</a>
-        <p class="lyrics">아무말도 아무것도 여전히 넌 여기 없고<br> 널 원하고 널 원해도 난 외롭고<br> 꽃이 피고 진 그 자리 끝을 몰랐었던 맘이<br> 깨질 것만 같던 그때 우리</p>
-      </div>
-      <div class="commuBox one" style="top:600px">
-        <img src="img/안녕.jpg" class="picture">
-        <a class="title">안녕</a>
-        <a class="singer">폴킴(Paul Kim)</a>
-        <p class="lyrics">안녕이라는 말을 해 짧은 시간을 뒤로 한 채로<br> 여전히 아프겠지만<br> 하룻밤 자고 나면 사라지는 꿈처럼<br> 너를 Oh 잊게 될까 두려워져</p>
-      </div>
-      <div class="commuBox two">
-        <img src="img/우리 헤어졌어요.jpg" class="picture">
-        <a class="title">우리 헤어졌어요</a>
-        <a class="singer">윤하</a>
-        <p class="lyrics">새하얀 머플러에 얼굴을 묻고<br> 붉어진 눈을 깜빡이며 널 기다렸어<br> 무슨 얘길 하고픈지<br> 그 맘 알 것도 같은데 모르겠어</p>
-      </div>
-      <div class="commuBox two" style="top:300px">
-        <img src="img/좋니.jpg" class="picture">
-        <a class="title">좋니</a>
-        <a class="singer">윤종신</a>
-        <p class="lyrics">이제 괜찮니 너무 힘들었잖아 우리 그 마무리가<br> 고작 이별뿐인 건데 우린 참 어려웠어<br> 잘 지낸다고 전해 들었어 가끔<br> 벌써 참 좋은 사람 만나 잘 지내고 있어</p>
-      </div>
-      <div class="commuBox two" style="top:450px">
-        <img src="img/포장마차.jpg" class="picture">
-        <a class="title">포장마차</a>
-        <a class="singer">황인욱</a>
-        <p class="lyrics">그대와 자주 가던 그 술집에<br> 혼자 널 생각하며 소주 한잔해<br> 그대가 좋아하던 김치찌개를<br> 가만히 바라보다 눈물 한잔해</p>
-      </div>
-      <div class="commuBox two" style="top:600px">
-        <img src="img/fine.jpg" class="picture">
-        <a class="title">Fine</a>
-        <a class="singer">태연</a>
-        <p class="lyrics">찢어진 종잇조각에 담아낸 나의 진심에<br> 선명해져 somethin'bout you Yeah<br> 나를 많이 닮은 듯 다른 넌 혹시 나와 같을까<br> 지금 괜한 기대를 해</p>
-      </div>
-    </div>
     </main>
 
     <!--맨 아래 이거 꼭 넣어주기-->

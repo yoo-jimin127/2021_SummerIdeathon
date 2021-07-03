@@ -1,16 +1,16 @@
 @import url("font.css");
 
-main .mainpage_community{
-    position: relative;
-    color: #FFDFE3;
-    font-size: 34px;
-    font-weight: bold;
-    margin-left: 0px;
-    margin-top: 150px;
-  }
+main .mainpage_community {
+  position: relative;
+  color: #ffdfe3;
+  font-size: 34px;
+  font-weight: bold;
+  margin-left: 0px;
+  margin-top: 150px;
+}
 
 .maincommu_box {
-    background-color: rgba(86, 120, 190, 0.5);
+  background-color: rgba(86, 120, 190, 0.5);
   margin-top: 20px;
   width: 1000px;
   height: 720px;
@@ -18,12 +18,16 @@ main .mainpage_community{
 }
 
 .chosenMenu {
-  color: #DCE8FF;
+  color: #dce8ff;
   font-size: 30px;
   position: absolute;
   right: 670px;
   top: 70px;
   display: flex;
+}
+
+.chosenMenu li {
+  cursor: pointer;
 }
 
 .chosenMenu > li + li {
@@ -32,7 +36,7 @@ main .mainpage_community{
 
 .chosenMenu .checkedCategory {
   font-size: 34px;
-  color: #92B8FF;
+  color: #92b8ff;
 }
 
 .commuTotalBox {
@@ -58,40 +62,40 @@ main .mainpage_community{
 }
 
 .one {
-    left:45px;
+  left: 45px;
 }
 
 .two {
-    left:510px;
+  left: 510px;
 }
 
 .picture {
-    width:110px;
-    height:110px;
-    border-radius: 15px;
+  width: 110px;
+  height: 110px;
+  border-radius: 15px;
 }
 
 .title {
-    position:absolute;
-    font-size: 18px;
-    font-weight: bold;
-    padding:5px;
+  position: absolute;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px;
 }
 
 .singer {
-    position:relative;
-    bottom:70px;
-    left:5px;
-    font-size: 12px;
-    color: #707070;
-    font-weight: lighter;
+  position: relative;
+  bottom: 70px;
+  left: 5px;
+  font-size: 12px;
+  color: #707070;
+  font-weight: lighter;
 }
 
 .lyrics {
-    position:relative;
-    bottom:63px;
-    left:125px;
-    font-size: 15px;
-    color: #707070;
-    font-weight: lighter;
+  position: relative;
+  bottom: 63px;
+  left: 125px;
+  font-size: 15px;
+  color: #707070;
+  font-weight: lighter;
 }

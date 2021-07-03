@@ -16,9 +16,12 @@
     <!--navbar는 네비게이션 바 쓰이는데에서만 써주자-->
     <link rel="stylesheet" href="css/navbar.css" />
     <link rel="stylesheet" href="css/music_detail.css" />
-    <style type="text/css"> 
-      a { text-decoration:none; color:#92B8FF; } 
-      </style> 
+    <style type="text/css">
+      a {
+        text-decoration: none;
+        color: #92b8ff;
+      }
+    </style>
   </head>
 
   <body>
@@ -38,8 +41,12 @@
             <li class="contentsInNavMenu">컨텐츠</li>
           </ul>
           <ul class="loginMenu">
-            <li onClick="location.href='signup.html'">회원가입</li>
-            <li onClick="location.href='login.html'">로그인</li>
+            <li>로그아웃</li>
+            <li>
+              <a class="writePostBtn" onClick="location.href='writing_3.html'">
+                글쓰기 <img src="img/pen.png" />
+              </a>
+            </li>
           </ul>
         </div>
       </div>
@@ -55,8 +62,8 @@
       <div class="contentsSubNav subNav notHovered">
         <div class="navContents">
           <ul class="contentsSubMenu">
-            <li onClick="location.href='video_main'">영상추천</li>
-            <li onClick="location.href='music.html'">음악추천</li>
+            <li><a href="video_main.html">영상추천</a></li>
+            <li>음악추천</li>
           </ul>
         </div>
       </div>
@@ -64,82 +71,109 @@
 
     <!--main 안에 코드 집어넣기-->
     <main>
-    <div class="mainpage_community">
-      <h3>"이 별에 홀로 서 있는 당신을 위한 추천"  
-      <a class="checkedCategory" style="size:30px" href="music.html">> 음악 추천</a> </h3>
-      
-     
+      <div class="mainpage_community">
+        <h3>
+          "이 별에 홀로 서 있는 당신을 위한 추천"
+          <a class="checkedCategory" style="size: 30px" href="music.html"
+            >> 음악 추천</a
+          >
+        </h3>
 
-      <div class="maincommu_box">
-        <img src="img/이제는 어떻게 사랑을 하나요.jpg" class="picture">
-      </div>
+        <div class="maincommu_box">
+          <img src="img/이제는 어떻게 사랑을 하나요.jpg" class="picture" />
+        </div>
 
         <a class="title"> 이제는 어떻게 사랑을 하나요</a>
         <a class="singer">정효빈</a>
-        <p class="lyrics">이 곡은 이별한 연인에 대한 그리움과 미련을 담은 곡이다. <br>
-          떠난 연인을 잊지 못하고 함께했던 과거를 추억하며 '이제는 어떻게 사랑을 하나요' 라며 외친다.
-        <br>자신 없이도 괜찮아보이는 과거 연인을 보고 상처받지만,
-        <br>아직 나는 끝낼 수 없고 이 추억에서 조금 더 머무르겠다며 미련이 남은 마음을
-        <br>솔로 가수 정효빈의 애절한 목소리로 표현한 곡이다.</p>
+        <p class="lyrics">
+          이 곡은 이별한 연인에 대한 그리움과 미련을 담은 곡이다. <br />
+          떠난 연인을 잊지 못하고 함께했던 과거를 추억하며 '이제는 어떻게 사랑을
+          하나요' 라며 외친다.
+          <br />자신 없이도 괜찮아보이는 과거 연인을 보고 상처받지만, <br />아직
+          나는 끝낼 수 없고 이 추억에서 조금 더 머무르겠다며 미련이 남은 마음을
+          <br />솔로 가수 정효빈의 애절한 목소리로 표현한 곡이다.
+        </p>
 
-        <iframe class="utube" width="950" height="530" src="https://www.youtube.com/embed/is8vJoQsItQ"
-        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
-        gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe
+          class="utube"
+          width="950"
+          height="530"
+          src="https://www.youtube.com/embed/is8vJoQsItQ"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+        gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
 
-        <p class=lyrics_all>
-          버티고 버티다 창문을 열어도 보고 지난 사랑이 초라하게 느껴져도 
-          <br>지우고 지워도 아무리 애를 써 봐도 나는 여전히 그대를 기다리죠
-          <br>늘 내 맘에 항상 함께해주던 나의 지친 손을 잡아주던 너
-          <br><br> 이제는 어떻게 사랑을 하나요 숨이 멎을 듯 아픈 사람 다신 없을 거 같은데
-          <br>이제는 어떻게 하루를 사나요 그댈 만났던 그 곳 이렇게 아직도 그댈 기다리죠
-          <br><br>오래전 기억들 내 맘을 자꾸 두드려 그저 멍하니 하늘만 바라보죠
-          <br>늘 나보다 더 날 사랑해 주던 내가 알던 그댄 지금 어디에
-          <br><br>이제는 어떻게 사랑을 하나요 숨이 멎을 듯 아픈 사람 다신 없을 것 같은데
-          <br>이제는 어떻게 하루를 사나요 그댈 만났던 그곳 이렇게 아직도 그댈 기다리죠
-          <br><br>모든 것에 그대가 남아있죠 내 방 안의 가득한 그대의 온기까지
-          <br>괜찮은가봐요 나 없이 그대는<br> 당장이라도 난 달려가 그댈 껴안고 싶은데
-          <br>아직은 끝이라 말할 수 없어요<br> 소중한 그 시간들 사라질 때까지 조금 더 바라보고 싶어
+        <p class="lyrics_all">
+          버티고 버티다 창문을 열어도 보고 지난 사랑이 초라하게 느껴져도
+          <br />지우고 지워도 아무리 애를 써 봐도 나는 여전히 그대를 기다리죠
+          <br />늘 내 맘에 항상 함께해주던 나의 지친 손을 잡아주던 너
+          <br /><br />
+          이제는 어떻게 사랑을 하나요 숨이 멎을 듯 아픈 사람 다신 없을 거 같은데
+          <br />이제는 어떻게 하루를 사나요 그댈 만났던 그 곳 이렇게 아직도 그댈
+          기다리죠 <br /><br />오래전 기억들 내 맘을 자꾸 두드려 그저 멍하니
+          하늘만 바라보죠 <br />늘 나보다 더 날 사랑해 주던 내가 알던 그댄 지금
+          어디에 <br /><br />이제는 어떻게 사랑을 하나요 숨이 멎을 듯 아픈 사람
+          다신 없을 것 같은데 <br />이제는 어떻게 하루를 사나요 그댈 만났던 그곳
+          이렇게 아직도 그댈 기다리죠 <br /><br />모든 것에 그대가 남아있죠 내
+          방 안의 가득한 그대의 온기까지 <br />괜찮은가봐요 나 없이 그대는<br />
+          당장이라도 난 달려가 그댈 껴안고 싶은데 <br />아직은 끝이라 말할 수
+          없어요<br />
+          소중한 그 시간들 사라질 때까지 조금 더 바라보고 싶어
         </p>
 
         <div class="input_comment">
-        <form action="">
-          <div class ="comment">
-           <input type="text" name="" id="" placeholder="  댓글을 입력하세요">
-          </div>
-          <div class="commentBtn">
-           <input type="submit" value="댓글달기">
-          </div>
-        </form>
+          <form action="">
+            <div class="comment">
+              <input
+                type="text"
+                name=""
+                id=""
+                placeholder="  댓글을 입력하세요"
+              />
+            </div>
+            <div class="commentBtn">
+              <input type="submit" value="댓글달기" />
+            </div>
+          </form>
         </div>
 
         <div class="comment_box">
-          <div class="commentBox" style="position: absolute; top: 30px;">
+          <div class="commentBox" style="position: absolute; top: 30px">
             <p class="id">하늘</p>
             <p class="date">2021-06-21 02:22</p>
-            <p class="content">연애를 할 때는 멜로디만 들린다 하지만 이별을 할 땐 가사가 들린다는 말이 맞구나.. 잡아야겠다</p>
+            <p class="content">
+              연애를 할 때는 멜로디만 들린다 하지만 이별을 할 땐 가사가 들린다는
+              말이 맞구나.. 잡아야겠다
+            </p>
           </div>
 
-          <div class="commentBox" style="position:absolute; top:150px;">
+          <div class="commentBox" style="position: absolute; top: 150px">
             <p class="id">이별</p>
             <p class="date">2021-06-25 23:37</p>
             <p class="content">내가 놓으면 끝날 관계를 너무 질질 끌었네</p>
           </div>
 
-          <div class="commentBox" style="position:absolute; top:270px;">
+          <div class="commentBox" style="position: absolute; top: 270px">
             <p class="id">yoon</p>
             <p class="date">2021-06-26 01:05</p>
             <p class="content">너만큼 좋아할 사람 없을거야 이제</p>
           </div>
 
-          <div class="commentBox" style="position:absolute; top:390px;">
+          <div class="commentBox" style="position: absolute; top: 390px">
             <p class="id">ㅋㅋ</p>
             <p class="date">2021-07-01 03:55</p>
-            <p class="content">가사 눈물난다 직접 말할 수 없기에 여기서라도 끄적여 봐 네가 나한테 했던 행동들을 다른 사람한테 한다는 게 아직은 실감이 안 나 솔직히 상상하기도 너무 싫어... 너도 조금만 가끔씩이라도 나를 추억해 줬으면 좋겠다 너로 인해서 사랑을 배웠고 알았어 고맙고 미안해</p>
+            <p class="content">
+              가사 눈물난다 직접 말할 수 없기에 여기서라도 끄적여 봐 네가 나한테
+              했던 행동들을 다른 사람한테 한다는 게 아직은 실감이 안 나 솔직히
+              상상하기도 너무 싫어... 너도 조금만 가끔씩이라도 나를 추억해
+              줬으면 좋겠다 너로 인해서 사랑을 배웠고 알았어 고맙고 미안해
+            </p>
           </div>
         </div>
-    </div> 
-
-   
+      </div>
     </main>
 
     <!--맨 아래 이거 꼭 넣어주기-->

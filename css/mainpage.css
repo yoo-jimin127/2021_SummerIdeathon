@@ -1,13 +1,13 @@
 @import url("font.css");
 
-main .mainpage_community{
-    position: relative;
-    color: #FFDFE3;
-    font-size: 34px;
-    font-weight: bold;
-    margin-left: 0px;
-    margin-top: 150px;
-  }
+main .mainpage_community {
+  position: relative;
+  color: #ffdfe3;
+  font-size: 34px;
+  font-weight: bold;
+  margin-left: 0px;
+  margin-top: 150px;
+}
 
 .maincommu_box {
   background-color: rgba(86, 120, 190, 0.5);
@@ -18,7 +18,7 @@ main .mainpage_community{
 }
 
 .chosenMenu {
-  color: #DCE8FF;
+  color: #dce8ff;
   font-size: 30px;
   position: absolute;
   right: 570px;
@@ -32,7 +32,7 @@ main .mainpage_community{
 
 .chosenMenu .checkedCategory {
   font-size: 34px;
-  color: #92B8FF;
+  color: #92b8ff;
 }
 
 .commuTotalBox {
@@ -50,13 +50,13 @@ main .mainpage_community{
   color: #555555;
   font-size: 18px;
   width: 535px;
-  height: 100px;
   border-radius: 15px;
   padding: 10px 20px;
 
   position: absolute;
   top: 150px;
   left: 45px;
+  cursor: pointer;
 }
 
 .commuBox2 {
@@ -64,13 +64,14 @@ main .mainpage_community{
   color: #555555;
   font-size: 18px;
   width: 535px;
-  height: 100px;
   border-radius: 15px;
   padding: 10px 20px;
 
   position: absolute;
   top: 275px;
   left: 45px;
+
+  cursor: pointer;
 }
 
 .commuBox3 {
@@ -78,13 +79,13 @@ main .mainpage_community{
   color: #555555;
   font-size: 18px;
   width: 535px;
-  height: 100px;
   border-radius: 15px;
   padding: 10px 20px;
 
   position: absolute;
   top: 400px;
   left: 45px;
+  cursor: pointer;
 }
 
 .commuBox4 {
@@ -92,13 +93,13 @@ main .mainpage_community{
   color: #555555;
   font-size: 18px;
   width: 535px;
-  height: 100px;
   border-radius: 15px;
   padding: 10px 20px;
 
   position: absolute;
   top: 525px;
   left: 45px;
+  cursor: pointer;
 }
 
 .writer {
@@ -127,6 +128,7 @@ main .mainpage_community{
   position: absolute;
   top: 650px;
   left: 520px;
+  cursor: pointer;
 }
 
 .commuImg {
@@ -140,12 +142,12 @@ main .mainpage_community{
 }
 
 main .recommendMent {
-    position: relative;
-    color: #FFDFE3;
-    font-size: 34px;
-    font-weight: bold;
-    top: 50px;
-  }
+  position: relative;
+  color: #ffdfe3;
+  font-size: 34px;
+  font-weight: bold;
+  top: 50px;
+}
 
 .movieImg {
   width: 475px;
@@ -155,6 +157,7 @@ main .recommendMent {
   position: relative;
   top: 80px;
   left: 0px;
+  cursor: pointer;
 }
 
 .musicImg {
@@ -165,10 +168,11 @@ main .recommendMent {
   position: relative;
   top: 80px;
   left: 50px;
+  cursor: pointer;
 }
 
 .ment_movie {
-  color: #EBEAEA;
+  color: #ebeaea;
   font-size: 30px;
   font-weight: bold;
   position: relative;
@@ -177,7 +181,7 @@ main .recommendMent {
 }
 
 .ment_music {
-  color: #EBEAEA;
+  color: #ebeaea;
   font-size: 30px;
   font-weight: bold;
   position: relative;
