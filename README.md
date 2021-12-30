@@ -4,7 +4,7 @@
 
 본 프로젝트는 2021학년도 1학기 멋쟁이 사자처럼 9기 하계 아이디어톤 출품작입니다.
 본 레포지토리는 프론트만 구현된 상태이며, 서버 구현이 완료된 프로젝트는 아래 링크에서 확인하실 수 있습니다.
-### [이별에서 프로젝트 소스코드](https://github.com/yoo-jimin127/djangoProject)
+### [이별에서 프로젝트 소스코드](https://github.com/yoo-jimin127/FarewellProject)
 
 ------
 
